@@ -1,0 +1,164 @@
+CRITICAL - 2022-04-15 10:49:13 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 10:49:22 --> Cannot declare class App\Controllers\index, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-15 11:26:35 --> Unknown column 'ms.opd.opd_kode' in 'on clause'
+CRITICAL - 2022-04-15 11:26:35 --> Unknown column 'ms.opd.opd_kode' in 'on clause'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `survey_...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `survey_...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `survey_...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `survey_...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Models\SurveyModel.php(50): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Responden.php(131): App\Models\SurveyModel->getSurveyByOPDID('001')
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->listSurveyResponden('001')
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#12 {main}
+CRITICAL - 2022-04-15 11:49:39 --> Trying to access array offset on value of type null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\AddResponden.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Yusuf ...', 73, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/AddRe...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormEmail.php(41): view('Responden/AddRe...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormEmail->addResponden('1')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormEmail))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 11:57:21 --> Undefined index: opd_logo
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\AddResponden.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 65, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/AddRe...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormEmail.php(41): view('Responden/AddRe...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormEmail->addResponden('1')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormEmail))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 22:36:22 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+ERROR - 2022-04-15 22:36:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-15 22:36:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Auth.php(43): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->cekLogin()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-04-15 22:37:27 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 22:53:23 --> Call to undefined method App\Models\PertanyaanModel::getPertanyaanBySurveiID
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormSurvey.php(34): CodeIgniter\Model->__call('getPertanyaanBy...', Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormSurvey->surveyResponden('1', 'yusuf.bagus063@...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSurvey))
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#6 {main}
+ERROR - 2022-04-15 22:59:46 --> Unknown column 'survey_judul' in 'field list'
+CRITICAL - 2022-04-15 22:59:46 --> Unknown column 'survey_judul' in 'field list'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pertany...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pertany...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pertany...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pertany...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Models\PertanyaanModel.php(46): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormSurvey.php(34): App\Models\PertanyaanModel->getPertanyaanBySurveyID('1')
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormSurvey->surveyResponden('1', 'yusuf.bagus063@...')
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSurvey))
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#12 {main}
+CRITICAL - 2022-04-15 23:05:15 --> Undefined index: survey_logo
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\SurveyResponden.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 50, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Surve...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormSurvey.php(52): view('Responden/Surve...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormSurvey->surveyResponden('1', 'yusuf.bagus063@...')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSurvey))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 23:15:44 --> Trying to access array offset on value of type null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\SurveyResponden.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Yusuf ...', 100, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Surve...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormSurvey.php(52): view('Responden/Surve...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormSurvey->surveyResponden('1', 'yusuf.bagus063@...')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSurvey))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 23:15:56 --> Trying to access array offset on value of type null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\SurveyResponden.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Yusuf ...', 100, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Surve...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\FormSurvey.php(52): view('Responden/Surve...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormSurvey->surveyResponden('1', 'yusuf.bagus063@...')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSurvey))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-15 23:43:31 --> Undefined index: judul_survey
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\ListSurveyResponden.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 120, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/ListS...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Responden.php(134): view('Responden/ListS...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->listSurveyResponden('002')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}

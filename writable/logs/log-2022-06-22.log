@@ -1,0 +1,176 @@
+CRITICAL - 2022-06-22 13:19:45 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 13:19:55 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 14:09:37 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 14:09:51 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 14:36:03 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 14:53:59 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 14:55:45 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 14:55:50 --> Undefined array key "totalopsi"
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Export.php(255): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Export->laporanExcel()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-22 14:56:10 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:03:56 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:14:22 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:22:29 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:26:23 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:26:40 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:27:22 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:28:39 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:29:10 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:29:59 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:30:22 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:33:26 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 15:36:51 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 16:03:41 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 21:27:19 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 21:28:03 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-22 21:29:43 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 837 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(837): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}

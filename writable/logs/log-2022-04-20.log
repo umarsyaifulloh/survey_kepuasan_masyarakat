@@ -1,0 +1,36 @@
+CRITICAL - 2022-04-20 00:14:45 --> Undefined variable: validation
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\FormSurveyResponden.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 109, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/FormS...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Responden.php(214): view('Responden/FormS...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->formSurveyResponden('2', 'lop@lop.com')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-20 03:17:33 --> Too few arguments to function App\Controllers\Dashboard::index(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-20 10:24:20 --> Could not move file phpE9CE.tmp to assets/media/avatars/ ()
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpE9CE.tmp', 'assets/media/av...', '')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Users.php(237): CodeIgniter\HTTP\Files\UploadedFile->move('assets/media/av...', 'C:\\xampp\\tmp\\ph...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Users->updateprofil('123456798')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#7 {main}
+CRITICAL - 2022-04-20 18:04:07 --> Undefined property: App\Controllers\Home::$usersModel
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Yusuf ...', 53, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#6 {main}

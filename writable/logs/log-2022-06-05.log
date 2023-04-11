@@ -1,0 +1,713 @@
+CRITICAL - 2022-06-05 00:10:52 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:11:15 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:17:37 --> Too few arguments to function App\Controllers\Pertanyaan::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:18:13 --> Too few arguments to function App\Controllers\Pertanyaan::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:18:23 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:18:32 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:18:40 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:18:50 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:19:00 --> Too few arguments to function App\Controllers\Pertanyaan::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:19:07 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:19:22 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:19:31 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:19:41 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:19:54 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:20:01 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:20:10 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:20:13 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:20:40 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:20:49 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:21:06 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:21:31 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:21:40 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:21:50 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:22:02 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:22:19 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:22:28 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:22:38 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:22:43 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:22:49 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:23:00 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:23:09 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:23:17 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:24:00 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:24:07 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:24:31 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:24:39 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:24:48 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:24:59 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:25:41 --> Too few arguments to function App\Controllers\Pertanyaan::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:25:53 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:03 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:09 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:14 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:24 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:29 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:40 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:26:44 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:27:10 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:27:20 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:27:53 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:28:07 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:28:15 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:28:23 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:28:36 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:28:44 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:28:51 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:29:01 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:29:19 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:29:26 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:29:36 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:29:46 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:29:56 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:30:11 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:30:16 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:30:28 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:32:41 --> Trying to access array offset on value of type null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Responden.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Yusuf ...', 256, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->formSurveyResponden('1')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#6 {main}
+CRITICAL - 2022-06-05 00:39:06 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 00:41:29 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 04:50:44 --> Too few arguments to function App\Controllers\Laporan::laporan(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->laporan()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 05:04:45 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 05:05:06 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 05:11:56 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+ERROR - 2022-06-05 20:13:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-05 20:13:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Models\UsersModel.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\BaseController.php(53): App\Models\UsersModel->getUsers(NULL)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+ERROR - 2022-06-05 20:15:32 --> Error connecting to the database: Unknown database 'db_survey'
+CRITICAL - 2022-06-05 20:15:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_survey'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Models\UsersModel.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\BaseController.php(53): App\Models\UsersModel->getUsers(NULL)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+ERROR - 2022-06-05 20:16:56 --> Table 'db_survey.ms_users' doesn't exist in engine
+CRITICAL - 2022-06-05 20:16:56 --> Table 'db_survey.ms_users' doesn't exist in engine
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Models\UsersModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\BaseController.php(53): App\Models\UsersModel->getUsers(NULL)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#13 {main}
+CRITICAL - 2022-06-05 20:37:58 --> Undefined offset: 2
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Helpers\custom_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Yusuf ...', 19, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Responden\BeritaResponden.php(276): tanggal('12 May 2022')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Berit...', Array, true)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Responden.php(332): view('Responden/Berit...', Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->berita()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+CRITICAL - 2022-06-05 20:40:12 --> Undefined offset: 2
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Helpers\custom_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Yusuf ...', 19, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Responden\BeritaResponden.php(276): tanggal('12 May 2022')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Berit...', Array, true)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Responden.php(332): view('Responden/Berit...', Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->berita()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+CRITICAL - 2022-06-05 20:43:17 --> Undefined offset: 2
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Helpers\custom_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Yusuf ...', 19, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Responden\BeritaResponden.php(129): tanggal('12 May 2022')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Berit...', Array, true)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Responden.php(333): view('Responden/Berit...', Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->berita()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+CRITICAL - 2022-06-05 20:49:10 --> Undefined offset: 2
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Helpers\custom_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Yusuf ...', 19, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Responden\DetailBeritaResponden.php(122): tanggal('12 May 2022')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/Detai...', Array, true)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Responden.php(342): view('Responden/Detai...', Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->detailBerita('3')
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+CRITICAL - 2022-06-05 21:04:26 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 21:05:37 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 21:09:51 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 21:56:01 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 22:06:29 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 22:06:55 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 22:07:09 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 23:00:41 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/ListO...', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Responden.php(382): view('Responden/ListO...', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->listOPD()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-06-05 23:11:04 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 23:14:05 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-06-05 23:18:05 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Berita/ListOPD', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(142): view('Berita/ListOPD', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->listOPD()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-06-05 23:21:42 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/ListOPD', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Laporan.php(140): view('Laporan/ListOPD', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->listOPD()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-06-05 23:35:32 --> Illegal string offset 'survey_judul'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Grafik\Grafik2.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\Yusuf ...', 225, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Grafik/Grafik2', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Grafik.php(107): view('Grafik/Grafik2', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->grafik2('2')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}

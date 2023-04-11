@@ -1,0 +1,355 @@
+ERROR - 2022-05-29 04:56:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-29 04:56:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Models\UsersModel.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\BaseController.php(53): App\Models\UsersModel->getUsers(NULL)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#11 {main}
+ERROR - 2022-05-29 04:58:40 --> Table 'db_survey.ms_users' doesn't exist in engine
+CRITICAL - 2022-05-29 04:58:40 --> Table 'db_survey.ms_users' doesn't exist in engine
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Models\UsersModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\BaseController.php(53): App\Models\UsersModel->getUsers(NULL)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#13 {main}
+ERROR - 2022-05-29 04:58:47 --> Table 'db_survey.ms_users' doesn't exist in engine
+CRITICAL - 2022-05-29 04:58:47 --> Table 'db_survey.ms_users' doesn't exist in engine
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Models\UsersModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\BaseController.php(53): App\Models\UsersModel->getUsers(NULL)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#13 {main}
+CRITICAL - 2022-05-29 05:22:42 --> Undefined index: opd_kode
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Berita\ListOPD.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 89, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Berita/ListOPD', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(134): view('Berita/ListOPD', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->listOPD()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-05-29 05:23:05 --> Undefined index: opd_kode
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Berita\ListOPD.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 89, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Berita/ListOPD', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(134): view('Berita/ListOPD', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->listOPD()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-05-29 05:30:37 --> Too few arguments to function App\Controllers\Survey::detailsuper(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detailsuper()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 05:43:29 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Survey/DetailSu...', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Survey.php(56): view('Survey/DetailSu...', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail('2')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-05-29 05:52:29 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/ListOPD', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Laporan.php(134): view('Laporan/ListOPD', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->listOPD()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-05-29 05:53:30 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/ListOPD', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Laporan.php(134): view('Laporan/ListOPD', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->listOPD()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-05-29 05:53:36 --> Call to a member function links() on null
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/ListOPD', Array, true)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Laporan.php(134): view('Laporan/ListOPD', Array)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->listOPD()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#9 {main}
+CRITICAL - 2022-05-29 05:53:39 --> Undefined property: App\Controllers\Berita::$pertanyaanModel
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Yusuf ...', 131, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->listOPD()
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#6 {main}
+CRITICAL - 2022-05-29 05:55:46 --> Undefined index: opd_kode
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Berita\ListOPD.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 89, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Berita/ListOPD', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(135): view('Berita/ListOPD', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->listOPD()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-05-29 05:58:26 --> pertanyaan_pagination is not a valid Pager template.
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pertanyaan_pagi...')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('tr_pertanyaan', 'pertanyaan_pagi...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Berita\ListOPD.php(112): CodeIgniter\Pager\Pager->links('tr_pertanyaan', 'pertanyaan_pagi...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Berita/ListOPD', Array, true)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(135): view('Berita/ListOPD', Array)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->listOPD()
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#12 {main}
+CRITICAL - 2022-05-29 19:07:57 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:08:01 --> Too few arguments to function App\Controllers\Opsi::add(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->add()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:08:07 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:08:31 --> Too few arguments to function App\Controllers\Laporan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:08:56 --> Too few arguments to function App\Controllers\Laporan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:11:45 --> Undefined index: survey_id
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Laporan\ListSurvey.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 126, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/ListSur...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Laporan.php(61): view('Laporan/ListSur...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->listLaporan('002', '2022')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-05-29 19:18:10 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:20:19 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:21:25 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:25:36 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:26:26 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:26:31 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:26:40 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:27:04 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:27:54 --> Too few arguments to function App\Controllers\Laporan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:28:07 --> Too few arguments to function App\Controllers\Laporan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:28:21 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:28:29 --> Undefined variable: berita
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Berita\AddBerita.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 27, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('berita/AddBerit...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(58): view('berita/AddBerit...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->add()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-05-29 19:29:30 --> Undefined index: users_opd_kode
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Views\Berita\EditBerita.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 27, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('berita/EditBeri...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\app\Controllers\Berita.php(164): view('berita/EditBeri...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->edit('1')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-05-29 19:31:06 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:35:33 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:36:02 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:36:12 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:38:19 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:40:57 --> Too few arguments to function App\Controllers\Berita::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and at least 1 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Berita->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-05-29 19:58:50 --> Too few arguments to function App\Controllers\Grafik::listSurvey(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik->listSurvey()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\Proyek404\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}

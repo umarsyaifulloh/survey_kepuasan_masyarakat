@@ -1,0 +1,616 @@
+CRITICAL - 2022-04-16 00:40:01 --> syntax error, unexpected ''survey'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('formsurvey/surv...')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('formsurvey/surv...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#6 {main}
+CRITICAL - 2022-04-16 00:46:31 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 00:48:43 --> Call to a member function paginate() on array
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\FormSurvey->surveyResponden('2', 'yusuf.bagus063@...')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSurvey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:01:41 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:02:17 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:02:48 --> Invalid file: Users/ListUsers.php
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Users/ListUsers...')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Users/ListUsers', Array, true)
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Users.php(24): view('Users/ListUsers', Array)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Users->index()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#8 {main}
+CRITICAL - 2022-04-16 10:02:51 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:02:54 --> Invalid file: OPD/ListOPD.php
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('OPD/ListOPD.php')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('OPD/ListOPD', Array, true)
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\OPD.php(20): view('OPD/ListOPD', Array)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\OPD->index()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OPD))
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#8 {main}
+CRITICAL - 2022-04-16 10:02:56 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:03:00 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:32:53 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:32:57 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:33:02 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:33:08 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:33:15 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:51:55 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:52:06 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:52:09 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:52:14 --> Too few arguments to function App\Controllers\Survey::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:52:19 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 10:54:01 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:54:10 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:54:15 --> Too few arguments to function App\Controllers\Pertanyaan::edit(), 1 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 3 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->edit('8')
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:54:21 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:54:28 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:55:02 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:55:22 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+ERROR - 2022-04-16 10:55:31 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-04-16 10:55:31 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ms...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ms...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ms...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ms...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Opsi.php(66): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->save('8', '5')
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#14 {main}
+CRITICAL - 2022-04-16 10:57:45 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:57:49 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:58:01 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:58:12 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+ERROR - 2022-04-16 10:58:14 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-04-16 10:58:14 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ms...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ms...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ms...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ms...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Opsi.php(66): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->save('8', '5')
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#14 {main}
+CRITICAL - 2022-04-16 10:58:18 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 10:58:25 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+ERROR - 2022-04-16 10:58:41 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-04-16 10:58:41 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ms...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ms...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ms...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ms...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Opsi.php(66): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->save('8', '5')
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#14 {main}
+CRITICAL - 2022-04-16 10:59:50 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+ERROR - 2022-04-16 10:59:52 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-04-16 10:59:52 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ms...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ms...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ms...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ms...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Opsi.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->save('8', '5')
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#14 {main}
+CRITICAL - 2022-04-16 11:35:29 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:35:32 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 11:35:36 --> Too few arguments to function App\Controllers\Survey::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:35:47 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 11:39:01 --> Too few arguments to function App\Controllers\Survey::edit(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->edit()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:39:05 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 11:52:12 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 11:52:20 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:52:27 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:52:33 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:52:37 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:54:15 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:54:20 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:54:22 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:54:30 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+ERROR - 2022-04-16 11:54:33 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-04-16 11:54:33 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ms...', 0)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ms...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ms...')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ms...', Array, false)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Opsi.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->save('4', '2')
+#10 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#11 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#14 {main}
+CRITICAL - 2022-04-16 11:55:26 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:55:29 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:57:58 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:01 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:11 --> Too few arguments to function App\Controllers\Opsi::create(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opsi->create()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opsi))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:14 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:18 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:30 --> Undefined variable: totalResponden
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Dashboard\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Yusuf ...', 40, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/Home', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Home.php(9): view('Dashboard/Home')
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 11:58:36 --> Too few arguments to function App\Controllers\Survey::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Survey->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Survey))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:42 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 11:58:48 --> Too few arguments to function App\Controllers\Pertanyaan::detail(), 0 passed in C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pertanyaan->detail()
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pertanyaan))
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#5 {main}
+CRITICAL - 2022-04-16 21:25:27 --> Undefined index: opd_kode
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\FormSurveyResponden.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 55, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/FormS...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Responden.php(210): view('Responden/FormS...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->formSurveyResponden('1', 'abc@abc.com')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
+CRITICAL - 2022-04-16 21:26:27 --> Undefined index: opd_kode
+#0 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Views\Responden\FormSurveyResponden.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Yusuf ...', 55, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Yusuf ...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Responden/FormS...', Array, true)
+#4 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\app\Controllers\Responden.php(210): view('Responden/FormS...', Array)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Responden->formSurveyResponden('1', 'abc@abc.com')
+#6 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Responden))
+#7 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Yusuf Bagus SH\Documents\GitLab\BellaPunya\survey\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#10 {main}
